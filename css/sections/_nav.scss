@@ -4,6 +4,27 @@
 .nav{
     background-color: $light-grey;
     &__container{
-        @include flex(space-between, center)
+        @include flex(space-between, center);
     }
-}
+       ul{
+        @include flex(space-between, center);
+        padding: 0 1em;
+        li{
+
+            a{
+                color: $black;
+                padding: 1em;
+                &:hover{
+                    background-color: $orange;
+                    color: $white;
+                }
+            }
+            
+        }
+        
+        li{
+            margin: 30px;
+        }
+       } 
+    }
+    
