@@ -48,3 +48,41 @@ body {
 .nav ul li {
   margin: 30px;
 }
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.hero h1 {
+  font-size: 5.5rem;
+}
+.hero__left--orange {
+  color: orange;
+}
+.hero__left__search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 1em;
+}
+.hero__left__search form {
+  width: 100%;
+}
+.hero__left__search form input {
+  border: none;
+  outline: none;
+  padding: 1em;
+  width: 80%;
+}
+.hero__left__search form button {
+  width: 15%;
+  display: inline-block;
+}
+.hero__left, .hero__right {
+  flex: 1;
+}
